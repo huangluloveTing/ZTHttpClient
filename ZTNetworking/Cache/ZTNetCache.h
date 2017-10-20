@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "ZTPObject.h"
+#import <FMDB.h>
 
 /**
  接口：保存离线数据的接口

@@ -7,7 +7,7 @@
 //
 
 #import "ZTNetCache.h"
-#import <FMDB.h>
+
 
 #define Cache_Path ([[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:@"Tables"])
 
