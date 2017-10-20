@@ -84,6 +84,7 @@
         data = UIImageJPEGRepresentation(image, 1);
     }
     self.dataTask = [[ZTHttpManager sharedManager] perform_BackUploadRequest_URI:@""
+                                                                        TaskName:@"upload"
                                                                       Parameters:parameters
                                                                          Headers:nil
                                                                             Name:@"name"
