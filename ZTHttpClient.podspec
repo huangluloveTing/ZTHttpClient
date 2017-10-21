@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
    s.subspec 'HTTP' do |ss|
 
     ss.source_files = 'ZTNetworking/HTTP/*.{h,m}'
-    ss.public_header_files = 'ZTNetworking/HTTP/*'
+    ss.public_header_files = 'ZTNetworking/HTTP/*.h'
     ss.dependency "AFNetworking"
     #ss.dependency "ZTNetworking/Serializer"
     #ss.dependency "ZTNetworking/Cache"
