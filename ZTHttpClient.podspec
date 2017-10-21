@@ -15,28 +15,29 @@ Pod::Spec.new do |s|
  
   s.source_files = 'ZTNetworking/**/*.h' 
 
-  # CACHE
-   s.subspec 'Cache' do |ss|
+    # CACHE
+   s.subspec 'Cache' do |cache|
 
-    ss.source_files = 'ZTNetworking/Cache/**/*.{h,m}'
-    ss.dependency 'ZTNetworking/Serializer'
-    ss.dependency 'FMDB'
+    cache.source_files = 'ZTNetworking/Cache/**/*.{h,m}'
+    #cache.dependency 'ZTNetworking/Serializer'
+    cache.dependency 'FMDB'
 
    end
 
    # HTTP
-   s.subspec 'HTTP' do |ss|
+   s.subspec 'HTTP' do |ht|
 
-    ss.source_files = 'ZTNetworking/HTTP/**/*.{h,m}'
-    ss.dependency 'ZTNetworking/Serializer'
-    ss.dependency 'ZTNetworking/Cache'
-    ss.dependency 'AFNetworking'
+    ht.source_files = 'ZTNetworking/HTTP/**/*.{h,m}'
+    #ht.dependency 'ZTNetworking/Serializer'
+    #ht.dependency 'ZTNetworking/Cache'
+    ht.dependency 'AFNetworking'
 
    end
 
-   s.subspec 'Serializer' do |ss|
+   # Serializer
+   s.subspec 'Serializer' do |se|
 
-    ss.source_files = 'ZTNetworking/Serializer/**/*.{h,m}'
+    se.source_files = 'ZTNetworking/Serializer/**/*.{h,m}'
 
    end
 

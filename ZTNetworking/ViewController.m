@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "Student.h"
 #import "ZTNetCache.h"
 
 #import "ZTHttpManager.h"
@@ -36,7 +35,8 @@
 //
 //    for (NSDictionary *s  in rresults) {
 //        NSLog(@" re = %@ " , s);
-//    }
+    //    }- ERROR | [iOS] unknown: Encountered an unknown error (Unable to find a specification for `XSLKeyChainCache (~> 0.1.0)` depended upon by `XSLOpenUDID`) during validation.
+    
 //
 //    Student *su = [Student serializeWithJsonObject:rresults.firstObject];
 //    NSLog(@"su Id = %@" , su.Id);;
