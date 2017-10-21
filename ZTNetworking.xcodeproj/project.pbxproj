@@ -56,7 +56,7 @@
 		706CD2911F98A7A20044DB24 /* ZTHttpConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHttpConst.h; sourceTree = "<group>"; };
 		706CD2981F98D0470044DB24 /* ZTHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHttpRequest.h; sourceTree = "<group>"; };
 		706CD2991F98D0470044DB24 /* ZTHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTHttpRequest.m; sourceTree = "<group>"; };
-		70C7A46A1F9AD92400131C31 /* ZTHttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHttpManager.h; sourceTree = "<group>"; };
+		70C7A46B1F9ADB2100131C31 /* ZTHttpClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHttpClientManager.h; sourceTree = "<group>"; };
 		B952D065FD076059310B6C1F /* Pods-ZTNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZTNetworking/Pods-ZTNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,7 @@
 		706CD25C1F9831DE0044DB24 /* ZTNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				70C7A46A1F9AD92400131C31 /* ZTHttpManager.h */,
+				70C7A46B1F9ADB2100131C31 /* ZTHttpClientManager.h */,
 				706CD27E1F9835610044DB24 /* Cache */,
 				706CD27D1F9835530044DB24 /* HTTP */,
 				706CD2731F9833920044DB24 /* Serializer */,

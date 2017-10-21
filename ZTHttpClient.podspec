@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZTHttpClient"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "一个基于AF 的网络框架"
 
   s.homepage     = "https://github.com/huangluloveTing/ZTHttpClient.git"
@@ -10,9 +10,34 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/huangluloveTing/ZTHttpClient.git", :tag => s.version}
-  s.source_files  = 'ZTNetworking/Cache/*.{h,m}','ZTNetworking/HTTP/*.{h,m}','ZTNetworking/Serializer/*.{h,m}'
+ 
   s.requires_arc = true
-  s.dependency "AFNetworking"
-  s.dependency "FMDB"
+ 
+  s.public_header_files = 'ZTNetworking/ZTHttpClientManager.h'
+  s.source_files = 'ZTNetworking/ZTHttpClientManager.h' 
+
+   s.subspec 'Cache' do |ss|
+
+    ss.source_files = 'ZTNetworking/Cache/*.{h,m}'
+    ss.dependency "FMDB"
+    #ss.dependency "ZTNetworking/Serializer"
+
+   end
+
+   s.subspec 'HTTP' do |ss|
+
+    ss.source_files = 'ZTNetworking/HTTP/*.{h,m}'
+    ss.public_header_files = 'ZTNetworking/HTTP/*'
+    ss.dependency "AFNetworking"
+    #ss.dependency "ZTNetworking/Serializer"
+    #ss.dependency "ZTNetworking/Cache"
+
+   end
+
+   s.subspec 'Serializer' do |ss|
+
+    ss.source_files = 'ZTNetworking/Serializer/*.{h,m}'
+    ss.public_header_files = 'ZTNetworking/Serializer/*.h'
+   end
 
 end
