@@ -28,12 +28,7 @@
 //    ZTNetCache *cache = [[ZTNetCache alloc] init];
 //    Student *st = [[Student alloc] init];
 //    st.name = @"hl";
-//    st.habby = @"hahahah";
-//
-        Student *st2 = [[Student alloc] init];
-        st2.name = @"huanglu";
-        st2.habby = @"hahahasfsfh";
-//
+
 //    [cache saveData:st];
 //    [cache saveData:st2];
 //

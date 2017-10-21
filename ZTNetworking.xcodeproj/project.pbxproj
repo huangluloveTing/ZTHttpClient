@@ -16,7 +16,6 @@
 		706CD2781F9833B70044DB24 /* ZTPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 706CD2741F98339B0044DB24 /* ZTPObject.m */; };
 		706CD27C1F9834A80044DB24 /* ZTMPropertyAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 706CD27B1F9834A80044DB24 /* ZTMPropertyAttribute.m */; };
 		706CD2811F9835890044DB24 /* ZTNetCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 706CD2801F9835890044DB24 /* ZTNetCache.m */; };
-		706CD2851F98449E0044DB24 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 706CD2841F98449E0044DB24 /* Student.m */; };
 		706CD2871F9849840044DB24 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 706CD2861F9849830044DB24 /* libsqlite3.0.tbd */; };
 		706CD28A1F987A460044DB24 /* ZTHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 706CD2891F987A460044DB24 /* ZTHttpClient.m */; };
 		706CD28D1F98878C0044DB24 /* ZTHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 706CD28C1F98878C0044DB24 /* ZTHttpManager.m */; };
@@ -44,8 +43,6 @@
 		706CD27B1F9834A80044DB24 /* ZTMPropertyAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTMPropertyAttribute.m; sourceTree = "<group>"; };
 		706CD27F1F9835890044DB24 /* ZTNetCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTNetCache.h; sourceTree = "<group>"; };
 		706CD2801F9835890044DB24 /* ZTNetCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTNetCache.m; sourceTree = "<group>"; };
-		706CD2831F98449E0044DB24 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		706CD2841F98449E0044DB24 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		706CD2861F9849830044DB24 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		706CD2881F987A460044DB24 /* ZTHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHttpClient.h; sourceTree = "<group>"; };
 		706CD2891F987A460044DB24 /* ZTHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTHttpClient.m; sourceTree = "<group>"; };
@@ -111,8 +108,6 @@
 				706CD25E1F9831DE0044DB24 /* AppDelegate.m */,
 				706CD2601F9831DE0044DB24 /* ViewController.h */,
 				706CD2611F9831DE0044DB24 /* ViewController.m */,
-				706CD2831F98449E0044DB24 /* Student.h */,
-				706CD2841F98449E0044DB24 /* Student.m */,
 				706CD2631F9831DE0044DB24 /* Main.storyboard */,
 				706CD2661F9831DE0044DB24 /* Assets.xcassets */,
 				706CD2681F9831DE0044DB24 /* LaunchScreen.storyboard */,
@@ -296,7 +291,6 @@
 				706CD27C1F9834A80044DB24 /* ZTMPropertyAttribute.m in Sources */,
 				706CD2781F9833B70044DB24 /* ZTPObject.m in Sources */,
 				706CD29A1F98D0470044DB24 /* ZTHttpRequest.m in Sources */,
-				706CD2851F98449E0044DB24 /* Student.m in Sources */,
 				706CD2811F9835890044DB24 /* ZTNetCache.m in Sources */,
 				706CD28A1F987A460044DB24 /* ZTHttpClient.m in Sources */,
 				706CD25F1F9831DE0044DB24 /* AppDelegate.m in Sources */,
