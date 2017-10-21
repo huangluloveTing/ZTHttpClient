@@ -13,31 +13,31 @@ Pod::Spec.new do |s|
  
   s.requires_arc = true
  
-  s.public_header_files = 'ZTNetworking/ZTHttpClientManager.h'
-  s.source_files = 'ZTNetworking/ZTHttpClientManager.h' 
+  s.source_files = 'ZTNetworking/**/*.h' 
 
+  # CACHE
    s.subspec 'Cache' do |ss|
 
-    ss.source_files = 'ZTNetworking/Cache/*.{h,m}'
-    ss.dependency "FMDB"
-    #ss.dependency "ZTNetworking/Serializer"
+    ss.source_files = 'ZTNetworking/Cache/**/*.{h,m}'
+    ss.dependency 'ZTNetworking/Serializer'
+    ss.dependency 'FMDB'
 
    end
 
+   # HTTP
    s.subspec 'HTTP' do |ss|
 
-    ss.source_files = 'ZTNetworking/HTTP/*.{h,m}'
-    ss.public_header_files = 'ZTNetworking/HTTP/*.h'
-    ss.dependency "AFNetworking"
-    #ss.dependency "ZTNetworking/Serializer"
-    #ss.dependency "ZTNetworking/Cache"
+    ss.source_files = 'ZTNetworking/HTTP/**/*.{h,m}'
+    ss.dependency 'ZTNetworking/Serializer'
+    ss.dependency 'ZTNetworking/Cache'
+    ss.dependency 'AFNetworking'
 
    end
 
    s.subspec 'Serializer' do |ss|
 
-    ss.source_files = 'ZTNetworking/Serializer/*.{h,m}'
-    ss.public_header_files = 'ZTNetworking/Serializer/*.h'
+    ss.source_files = 'ZTNetworking/Serializer/**/*.{h,m}'
+
    end
 
 end
